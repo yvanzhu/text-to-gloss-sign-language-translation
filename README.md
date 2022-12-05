@@ -16,8 +16,7 @@ The structure of the repository is as following:
  * `Notebooks`: Python notebooks containing the code for reproducing the experiments, 
    *  mapping of lemmatization algorithm and data statistics analysis
    *  statistical analysis for the results of human evaluation
- * `training scripts`: bash files including SLURM commands to execute Marian-NMT for training the NMT models reported in the paper
- * `data`: the plain-text versions of the paraller corpora for both the DGS and the Phoenix corpora. It includes the training, dev and test split for both the Phoenix and DGS corpus. Additionally, one can find tokenized, stemmed and augmented versions as reported in the paper.  
+
 
 Please note that the corpora ([Phoenix 2014T](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/) and [DGS Corpus](https://www.sign-lang.uni-hamburg.de/meinedgs/ling/start_en.html)) have their own licenses and any use of them should be conforming with them and include the appropriate citations. 
 
