@@ -10,12 +10,12 @@ This repository provides complementary material to aid the replication of the ex
 
 The structure of the repository is as following:
 
- * `notebooks`: Python notebooks containing the code for reproducing the experiments, 
-   *  splitting training and test set for the DGS corpus
-   *  measuring statistics for the DGS corpus
-   *  extract glosses and german intepretation from the DGS corpus
-   *  custom tokenization of the DGS corpus
-   *  measure overlap between training, dev and test splits of the DGS corpus
+ * `Data`: the plain-text versions of the paraller corpora for both the DGS and the Phoenix corpora. It includes the training, dev and test split for both the Phoenix and DGS corpus. Additionally, one can find lemmatized, alphabet normalized and augmented versions as reported in the thesis.  
+ * `Training Scripts`: bash files including SLURM commands to execute Marian-NMT for training the NMT transformer models.
+ * `Human Evaluations`: streamlit-based evalution interface for collecting the human judgements of selected trained systems
+ * `Notebooks`: Python notebooks containing the code for reproducing the experiments, 
+   *  mapping of lemmatization algorithm and data statistics analysis
+   *  statistical analysis for the results of human evaluation
  * `training scripts`: bash files including SLURM commands to execute Marian-NMT for training the NMT models reported in the paper
  * `data`: the plain-text versions of the paraller corpora for both the DGS and the Phoenix corpora. It includes the training, dev and test split for both the Phoenix and DGS corpus. Additionally, one can find tokenized, stemmed and augmented versions as reported in the paper.  
 
